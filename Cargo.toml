@@ -1,0 +1,20 @@
+[package]
+edition = "2018"
+name = "cargo-features"
+version = "0.0.0"
+authors = ["Martijn Gribnau <garm@ilumeo.com>"]
+description = "Discover the enabled conditional compilation features, and figure out from which crate they came"
+license = "MIT OR Apache-2.0"
+exclude = [
+    ".github",
+    ".idea/*",
+    ".vscode/*",
+    "*.iml",
+]
+keywords = ["features", "cargo", "conditional", "compilation"]
+categories = ["command-line-utilities"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
