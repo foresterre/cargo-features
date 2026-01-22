@@ -1,5 +1,6 @@
 [package]
 name = "cargo-features"
+description = "Power tools for working with (conditional) features"
 authors = ["Martijn Gribnau <garm@ilumeo.com>"]
 version = "1.0.0"
 license = "MIT OR Apache-2.0"
